@@ -17,4 +17,5 @@ This is a backend for Todo application build on top of Nodejs and database as Po
    DB_NAME="database_name"
    PORT=3008
    DB_PORT="database_port"
-5. **Access the application**: Open the command prompt and run `npm start` to see backend running on port 3008.
+5. **For DataBase Connectivity**: Make sure you have postgre installed on your system , give the name of database (any you want) and then run `npx knex migrate:latest` for setting up tables locally on database.
+6. **Access the application**: Open the command prompt and run `npm start` to see backend running on port 3008.
